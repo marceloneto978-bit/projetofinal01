@@ -1,0 +1,41 @@
+#header {
+    background-color: #333;
+    color: white;
+    padding: 9px;
+    text-align: center;
+}
+
+#menu {
+    float: left;
+    width: 20%;
+    height: 390px;
+    background-color: #f1f1f1;
+    text-transform: capitalize;
+}
+
+#main {
+    margin-left: 20%;
+    height: 350px;
+    padding: 20px;
+    text-transform: capitalize;
+    .container {
+    background-color: white;
+    padding: 30px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);}
+    
+    
+        
+    
+
+
+}
+
+
+#footer {
+    background-color: #333;
+    color: white;
+    padding: 1px;
+    text-align: center;
+}

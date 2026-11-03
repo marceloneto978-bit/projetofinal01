@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página</title>
+    <link rel="stylesheet" href="../css/consultas.css">
+</head>
+
+<body>
+
+    <div id="header">
+        <h1>Petcare</h1>
+    </div>
+
+    <div id="menu">
+        <ul>
+            <li><a href="home.html">voltar a pagina inicial</a></li><br>
+            <li><a href="contatos.html">Contatos</a></li><br>
+            <li><a href="medicamentos.html">Medicamentos</a></li><br>
+            <li><a href="cadastro.html">login</a></li><br>
+            <li><a href="agenda.html">agenda</a></li><br>
+        </ul>
+    </div>
+
+    <div id="main">
+        <h2>Medicos e consultas</h2>
+
+        <p>Conheça nossos profissionais e marque uma consulta
+            para seu animal de estimação.</p>
+
+        <section id="medicos">
+
+            <div id="medico">
+                <h3>Dr. Carlos Mendes</h3>
+                <p>Especialidade: Clínica Geral</p>
+                <p>Atendimento: Cães e gatos</p>
+            </div>
+
+            <div id="medico">
+                <h3>Dra. Ana Oliveira</h3>
+                <p>Especialidade: Dermatologia</p>
+                <p>Atendimento: Cães e gatos</p>
+            </div>
+
+            <div id="medico">
+                <h3>Dr. Pedro Santos</h3>
+                <p>Especialidade: Cirurgia Veterinária</p>
+                <p>Atendimento: Pequenos animais</p>
+            </div>
+
+        </section>
+
+        <section id="agendamento">
+
+            <h2>Agendar uma consulta</h2>
+
+            <form action="agenda.html" method="get">
+
+                <label>Nome do responsável:</label>
+                <input type="text" name="responsavel" placeholder="Digite seu nome" required>
+
+                <label>Nome do animal:</label>
+                <input type="text" name="animal" placeholder="Nome do seu pet" required>
+
+                <label>Espécie:</label>
+                <select name="especie" required>
+                    <option value="">Selecione</option>
+                    <option value="Cachorro">Cachorro</option>
+                    <option value="Gato">Gato</option>
+                    <option value="Outro">Outro</option>
+                </select>
+
+                <label>Veterinário:</label>
+                <select name="veterinario" required>
+                    <option value="">Escolha um profissional</option>
+                    <option value="Carlos Mendes">Dr. Carlos Mendes</option>
+                    <option value="Ana Oliveira">Dra. Ana Oliveira</option>
+                    <option value="Pedro Santos">Dr. Pedro Santos</option>
+                </select>
+
+                <label>Data da consulta:</label>
+                <input type="date" name="data" required>
+
+                <label>Horário:</label>
+                <select name="horario" required>
+                    <option value="">Escolha um horário</option>
+                    <option value="08:00">08:00</option>
+                    <option value="09:00">09:00</option>
+                    <option value="10:00">10:00</option>
+                    <option value="13:00">13:00</option>
+                    <option value="14:00">14:00</option>
+                    <option value="15:00">15:00</option>
+                </select>
+
+                <label>Motivo da consulta:</label>
+                <textarea name="motivo" placeholder="Descreva o motivo da consulta"></textarea>
+
+                <button type="submit">Marcar consulta</button>
+
+            </form>
+
+        </section>
+
+        </main>
+    </div>
+
+    <div id="footer">
+        <p>Rodapé da Página</p>
+    </div>
+
+</body>
+</html>
