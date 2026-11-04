@@ -1,5 +1,11 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f8f4;
+    color: #333;
+}
+
 #header {
-    background-color: #333;
+    background-color: #000000;
     color: white;
     padding: 9px;
     text-align: center;
@@ -13,115 +19,113 @@
     text-transform: capitalize;
 }
 
-#main {
+#main{
     margin-left: 20%;
     height: 350px;
     padding: 20px;
     text-transform: capitalize;
-
-
   
+     
 
-h2 {
-    text-align: center;
-    margin-bottom: 15px;
-    color: #131413;
-}
+    h2 {
+        text-align: center;
+        margin-bottom: 15px;
+        color: #131413;
+    }
 
-main>p {
-    text-align: center;
-    margin-bottom: 30px;
-}
+    main>p {
+        text-align: center;
+        margin-bottom: 30px;
+    }
 
-.medicos {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-    margin-bottom: 40px;
-}
+    .medicos {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+        
+    }
 
-.medico {
-    background-color: white;
-    padding: 25px;
-    width: 280px;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
+    .medico {
+        background-color: white;
+        padding: 25px;
+        width: 280px;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+       
+    }
 
-.medico h3 {
-    color: #060606;
-    margin-bottom: 15px;
-}
+    .medico h3 {
+        color: #060606;
+        margin-bottom: 15px;
+    }
 
-.medico p {
-    margin-bottom: 10px;
-}
+    .medico-p {
+        margin-bottom: 10px;
+    }
 
-.agendamento {
-    background-color: white;
-    max-width: 550px;
-    margin: auto;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
+    .agendamento{
+        background-color: white;
+        max-width: 550px;
+        margin: auto;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
 
-label {
-    display: block;
-    margin-top: 15px;
-    margin-bottom: 7px;
-    font-weight: bold;
-}
+    label {
+        display: block;
+        margin-top: 15px;
+        margin-bottom: 7px;
+        font-weight: bold;
+    }
 
-input,
-select,
-textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
+    input,
+    select,
+    textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
 
-textarea {
-    height: 100px;
-    resize: vertical;
-}
+    }
 
-button {
-    width: 100%;
-    padding: 13px;
-    margin-top: 20px;
-    background-color: #131414;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-}
+    textarea {
+        height: 100px;
+        resize: vertical;
+    }
 
-button:hover {
-    background-color: #050505;
-}
+    button {
+        width: 100%;
+        padding: 13px;
+        margin-top: 20px;
+        background-color: #131414;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
 
    
 
-}
-
-
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f1f8f4;
-    color: #333;
-}
-
-
-
- #footer {
-        background-color: #333;
-        color: white;
-        padding: 1px;
-        text-align: center;
-        margin-top: 1000px;
+    .bottomhover {
+        background-color: #050505;
     }
+
+
+
+}
+
+
+
+
+#footer {
+    background-color: #333;
+    color: white;
+    padding: 1px;
+    text-align: center;
+    margin-top: 1000px;
+}
+
